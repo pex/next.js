@@ -3,8 +3,8 @@
   "env": {
     "test": {
       "presets": [
-        "env",
-        "next/babel"
+        "next/babel",
+        ["env", { "modules": "commonjs" }]
       ]
     }
   }
